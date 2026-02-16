@@ -19,25 +19,25 @@ Use this playbook when:
 
 ## Key terms and acronyms
 
-Senior information risk owner (SIRO) – Accountable for information risk and approves major decisions
+Senior information risk owner (SIRO) – is accountable for information risk and approves major decisions.
 
-Senior responsible owner (SRO) – AI Engineering Lab programme lead
+Senior responsible owner (SRO) – AI Engineering Lab programme lead.
 
-Data protection officer (DPO) – Ensures General data protection regulation (GDPR) compliance and manages Information commissioner's office (ICO) notifications
+Data protection officer (DPO) – ensures general data protection regulation (GDPR) compliance and manages the information commissioner's office (ICO) notifications.
 
-Chief information security officer (CISO) – Overall security leadership and oversight
+Chief information security officer (CISO) – overall security leadership and oversight.
 
-National cyber security centre (NCSC) – UK cyber security authority (part of GCHQ)
+National cyber security centre (NCSC) – UK cyber security authority (part of GCHQ).
 
-ICO – UK data protection regulator
+ICO – UK data protection regulator.
 
-Personally identifiable information (PII) – Data that can identify a person (names, emails and similar)
+Personally identifiable information (PII) – data that can identify a person (names, emails and similar).
 
-GDPR – UK and EU law on personal data protection
+GDPR – UK and EU law on personal data protection.
 
-Data processing agreement (DPA) – Contract with AI vendors on data handling
+Data processing agreement (DPA) – contract with AI vendors on data handling.
 
-Prompt injection – Security attack using malicious AI instructions to manipulate system behaviour
+Prompt injection – security attack using malicious AI instructions to manipulate system behaviour.
 
 ## Incident classification
 
@@ -277,7 +277,7 @@ For P1 and P2 incidents, conduct a blameless post-incident review.
 
 ### Example A: Personal data exposed to AI tool
 
-Scenario: An engineer accidentally includes real customer personally identifiable information (PII) in a prompt.
+Scenario: In this example, an engineer accidentally includes real customer personally identifiable information (PII) in a prompt.
 
 #### Immediate actions
 
@@ -312,7 +312,7 @@ You must:
 
 ### Example B: Security vulnerability deployed to production
 
-Scenario: AI-generated code containing SQL injection vulnerability reaches production.
+Scenario: In this example, AI-generated code containing an SQL injection vulnerability reaches production.
 
 #### Immediate actions
 
@@ -347,7 +347,7 @@ You must action:
 
 ### Example C: API key committed to repository
 
-Scenario: AI suggests code containing a hardcoded API key which is committed.
+Scenario: In this example, the AI suggests code containing a hardcoded API key, which is then committed.
 
 #### Immediate actions
 
@@ -380,7 +380,7 @@ You must:
 
 ### Example D: Suspected prompt injection attack
 
-Scenario: AI assistant produces unexpected output suggesting malicious prompt injection.
+Scenario: In this example, the AI assistant produces unexpected output suggesting a malicious prompt injection.
 
 #### Immediate actions
 

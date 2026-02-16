@@ -3,7 +3,7 @@
 
 # AI Engineering Lab repository
 
-Central home for all AI Engineering Lab content across government departments. It provides reusable guidance, templates, training materials, and practices for safely and effectively adopting AI code assistants.
+This repository is a central home for all AI Engineering Lab content across government departments. It provides reusable guidance, templates, training materials, and practices for safely and effectively adopting AI code assistants.
 
 ## Quick navigation
 

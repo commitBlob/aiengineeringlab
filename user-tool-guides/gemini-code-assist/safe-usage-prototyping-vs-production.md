@@ -149,7 +149,7 @@ You must:
 - use separate, isolated GCP projects for prototyping
 - not test with service accounts that have production access
 
-You may:
+You can:
 
 - use GCP free tier services for experimentation
 - create temporary GCP resources for testing
@@ -193,7 +193,7 @@ You should:
 
 ### P-04: AI assistant usage
 
-You may:
+You can:
 
 - use Gemini Code Assist inline suggestions, chat and agent mode features
 - experiment with code transformation for migration planning
@@ -625,7 +625,7 @@ Document your answers and retain them for audit purposes. Escalate concerns to y
 
 **Appropriate controls**
 
-You may:
+You can:
 - use GCP sandbox project for testing
 - use Gemini Code Assist to generate Cloud Functions code rapidly
 - test with Firestore collections in sandbox project
@@ -651,7 +651,7 @@ You must not:
 
 **Appropriate controls**
 
-You may:
+You can:
 - use Gemini Code Assist to generate components quickly
 - use fake data for examples
 - focus on speed over code quality
@@ -806,10 +806,6 @@ When submitting for ethics review, address these questions.
 | What happens if the system fails? | Understand safety implications |
 | Are there less intrusive alternatives? | Principle of necessity |
 | How is code customization being used? | Assess learning from sensitive codebases |
-
-### Ethics principles for AI use
-
-Government use of AI should adhere to the following principles.
 
 ### Ethics principles for AI use
 

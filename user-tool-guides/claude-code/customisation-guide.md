@@ -177,7 +177,7 @@ Create `.claude/skills/gov-uk-compliance/SKILL.md` to ensure code follows GOV.UK
 
 - GOV.UK Frontend component usage
 - WCAG 2.2 AA accessibility requirements
-- Progressive enhancement patterns
+- progressive enhancement patterns
 - Government Digital Service (GDS) API standards compliance
 
 Claude will automatically apply this skill when you work on user-facing components or APIs.

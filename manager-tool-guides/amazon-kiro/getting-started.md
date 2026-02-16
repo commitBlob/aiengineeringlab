@@ -44,7 +44,7 @@ This section provides everything you need to begin your journey with Kiro.
     - an AWS Builder ID
     - your organization's identity provider
 
-2. Import VS Code settings including your extensions, settings, and themes
+2. Import VS Code settings including your extensions, settings, and themes.
 
 3. Allow Kiro to integrate with your system shell to let you open projects from the terminal using the kiro command.
 
@@ -84,7 +84,7 @@ To install Windows Subsystem for Linux (WSL), follow these steps.
     ```bash
     kiro-cli
     ```
-13. Exit Kiro CLI..
+13. Exit Kiro CLI.
     ```bash
     Type /q to exit Kiro CLI
     Type exit to close the WSL session
@@ -105,7 +105,7 @@ For WSL issues, you should:
 - run wsl --update to update WSL to the latest version
 
 ## Kiro IDE system requirements for macOS
-For macOS you must have:
+For macOS, you must have:
 - macOS 10.15 (Catalina) or later recommended
 - 4GB RAM minimum (8GB+ recommended)
 - stable internet connection for AI features
@@ -242,7 +242,7 @@ For installation methods by AppImage (Universal - Works on most distributions)
       ```bash
       chmod +x Kiro-*.AppImage
       ```
-3. Run Kiro
+3. Run Kiro.
       ```bash
       ./Kiro-*.AppImage
       ```

@@ -328,9 +328,9 @@ Retrieving document content—especially with `batch_get_documents`—consumes t
 
 To optimise performance:
 
-- Craft specific prompts targeting only the information you need
-- Avoid broad requests that force ingestion of large amounts of documentation
-- Use `search_documents` first to identify relevant pages before fetching full content
+- craft specific prompts targeting only the information you need
+- avoid broad requests that force ingestion of large amounts of documentation
+- use `search_documents` first to identify relevant pages before fetching full content
 
 ## Security and governance
 
@@ -359,13 +359,13 @@ Note: While the MCP specification recommends OAuth 2.1 for HTTP transports, Goog
 
 ### API key security
 
-Follow these best practices:
+Follow best practices by:
 
-- Restrict keys to only the Developer Knowledge API
-- Do not commit keys to version control (add `.gemini/settings.json` and `mcp.json` to `.gitignore`)
-- Use individual keys rather than sharing team keys for better audit trails and quota management
-- Rotate keys quarterly
-- Monitor quota usage via Google Cloud Console: IAM & Admin > Quotas & System Limits > Developer Knowledge API (see [Quota & limits](https://developers.google.com/knowledge/quota))
+- restricting keys to only the Developer Knowledge API
+- not committing keys to version control (add `.gemini/settings.json` and `mcp.json` to `.gitignore`)
+- using individual keys rather than sharing team keys for better audit trails and quota management
+- rotating keys quarterly
+- monitoring quota usage via Google Cloud Console: IAM & Admin > Quotas & System Limits > Developer Knowledge API (see [Quota & limits](https://developers.google.com/knowledge/quota))
 
 Alert on unusual usage patterns that might indicate compromised keys.
 
@@ -444,10 +444,10 @@ Problem: JSON syntax errors in configuration.
 Solutions:
 1. Validate your JSON using an online validator like [jsonlint.com](https://jsonlint.com).
 2. Common errors:
-   - Missing commas between objects
-   - Trailing commas at the end of objects
-   - Incorrect quote marks (use straight quotes `"`, not curly quotes `"`)
-   - Mismatched brackets `{}` or braces `[]`
+   - missing commas between objects
+   - trailing commas at the end of objects
+   - incorrect quote marks (use straight quotes `"`, not curly quotes `"`)
+   - mismatched brackets `{}` or braces `[]`
 
 Problem: "Gemini CLI command not found".
 

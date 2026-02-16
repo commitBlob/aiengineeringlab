@@ -2,7 +2,7 @@
 > This is a new service. Your [feedback](https://github.com/govuk-digital-backbone/aiengineeringlab/discussions) will help us to improve it.
 
 # AI code assistant data residency
-Data residency refers to the geographic location where data is stored and processed, which is critical for compliance with regulations like UK data protection laws and organizational security requirements.
+Data residency refers to the geographic location where data is stored and processed, which is critical for compliance with regulations like UK data protection laws and organisational security requirements.
 
 Data residency for DSIT recommended AI coding tools. This guidance focuses on suitability for UK residency.
 

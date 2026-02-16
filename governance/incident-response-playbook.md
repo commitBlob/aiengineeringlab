@@ -19,25 +19,25 @@ Use this playbook when:
 
 ## Key terms and acronyms
 
-Senior information risk owner (SIRO) – Accountable for information risk and approves major decisions
+Senior information risk owner (SIRO) – is accountable for information risk and approves major decisions.
 
-Senior responsible owner (SRO) – AI Engineering Lab programme lead
+Senior responsible owner (SRO) – AI Engineering Lab programme lead.
 
-Data protection officer (DPO) – Ensures General data protection regulation (GDPR) compliance and manages Information commissioner's office (ICO) notifications
+Data protection officer (DPO) – ensures general data protection regulation (GDPR) compliance and manages the information commissioner's office (ICO) notifications.
 
-Chief information security officer (CISO) – Overall security leadership and oversight
+Chief information security officer (CISO) – overall security leadership and oversight.
 
-National cyber security centre (NCSC) – UK cyber security authority (part of GCHQ)
+National cyber security centre (NCSC) – UK cyber security authority (part of GCHQ).
 
-ICO – UK data protection regulator
+ICO – UK data protection regulator.
 
-Personally identifiable information (PII) – Data that can identify a person (names, emails and similar)
+Personally identifiable information (PII) – data that can identify a person (names, emails and similar).
 
-GDPR – UK and EU law on personal data protection
+GDPR – UK and EU law on personal data protection.
 
-Data processing agreement (DPA) – Contract with AI vendors on data handling
+Data processing agreement (DPA) – contract with AI vendors on data handling.
 
-Prompt injection – Security attack using malicious AI instructions to manipulate system behaviour
+Prompt injection – security attack using malicious AI instructions to manipulate system behaviour.
 
 ## Incident classification
 

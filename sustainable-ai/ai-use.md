@@ -3,7 +3,7 @@
 
 # Sustainable AI use: reducing environmental impact through better practice
 
-Sustainable AI use is not about using AI less. It is about using it better. Clear prompts, appropriate model selection, and efficient workflows reduce environmental impact whilst improving your results.
+Sustainable AI use is not about using AI less, it's about using it better. Clear prompts, appropriate model selection, and efficient workflows reduce environmental impact whilst improving your results.
 
 Every AI interaction consumes compute resources. Better practices mean fewer wasted tokens, less energy consumed, and reduced environmental impact, whilst also saving time and money.
 
@@ -24,7 +24,7 @@ All engineers using AI code assistants on government projects. This guidance ali
 
 ## The environmental cost of AI
 
-AI models run on data centres that consume significant electricity. Each token generated requires compute power. The relationship is straightforward such as more tokens equals more energy equals higher environmental impact.
+AI models run on data centres that consume significant amounts of electricity, and each token generated requires compute power. The relationship is straightforward as more tokens require more energy, which results in a higher environmental impact.
 
 AI energy consumption is driven by:
 

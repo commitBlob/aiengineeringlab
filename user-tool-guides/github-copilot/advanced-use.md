@@ -67,8 +67,7 @@ Consider:
 
 Copilot is most valuable in real codebases, not empty files.
 
-You can use Copilot to understand unfamiliar code, summarise files or functions, and suggest potential improvements or fixes before making changes yourself.
-Provide your feedback on BizChat
+You can use Copilot to understand unfamiliar code, summarise files or functions, and suggest potential improvements or fixes before making changes yourself. You should provide your feedback on BizChat.
 
 Work more effectively with existing code by:
 

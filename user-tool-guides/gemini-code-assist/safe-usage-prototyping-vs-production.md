@@ -1045,14 +1045,40 @@ Escalate immediately if you identify:
 
 ## Further reading
 
-The [base guardrails](../../governance/guardrails-base.md) set out foundational security controls. The [AI SDLC playbook](../../playbooks/ai-sdlc-playbook.md) covers integrating AI tools across the development lifecycle, and the [incident response playbook](../../governance/incident-response-playbook.md) covers responding to AI tool incidents.
+### Internal documentation
 
-For implementation guidance, see the [Gemini Code Assist manager guide](../../manager-tool-guides/gemini-code-assist/README.md). To extend Gemini capabilities, see the [Developer Knowledge API and MCP server guidance](../../manager-tool-guides/gemini-code-assist/developer-knowledge-api-and-mcp-server-guidance.md).
+- [Base guardrails](../../governance/guardrails-base.md) covers foundational security controls
+- [AI SDLC playbook](../../playbooks/ai-sdlc-playbook.md) describes integrating AI tools across development lifecycle
+- [Incident response playbook](../../governance/incident-response-playbook.md) provides guidance on responding to AI tool incidents
+- [Gemini Code Assist manager guide](../../manager-tool-guides/gemini-code-assist/README.md) covers broader implementation guidance
+- [Developer Knowledge API and MCP server guidance](../../manager-tool-guides/gemini-code-assist/developer-knowledge-api-and-mcp-server-guidance.md) covers extending Gemini capabilities
 
-The [Government Service Manual](https://www.gov.uk/service-manual) and [Service Standard](https://www.gov.uk/service-manual/service-standard) set out how to build government services. The [Technology Code of Practice](https://www.gov.uk/guidance/the-technology-code-of-practice) covers technology decisions. For data handling, see [Government Security Classifications](https://www.gov.uk/government/publications/government-security-classifications) and [NCSC Cloud Security Principles](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles).
+### Government guidance
 
-See the [Gemini Code Assist documentation](https://cloud.google.com/gemini/docs/codeassist) and [security and privacy guidance](https://cloud.google.com/gemini/docs/codeassist/security-and-privacy). For GCP architecture and security, refer to the [Google Cloud Architecture Framework](https://cloud.google.com/architecture/framework), [GCP Security Best Practices](https://cloud.google.com/security/best-practices) and [Security Command Center](https://cloud.google.com/security-command-center).
+- [Government Service Manual](https://www.gov.uk/service-manual)
+- [Government Service Standard](https://www.gov.uk/service-manual/service-standard)
+- [Technology Code of Practice](https://www.gov.uk/guidance/the-technology-code-of-practice)
+- [Government Security Classifications](https://www.gov.uk/government/publications/government-security-classifications)
+- [NCSC Cloud Security Principles](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles)
 
-The [OWASP LLM Top 10](https://genai.owasp.org/llm-top-10/) covers the top security risks for large language model applications. [OWASP Agentic AI Threats and Mitigations](https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/) addresses security considerations for autonomous AI systems. The [NCSC AI and Machine Learning Security](https://www.ncsc.gov.uk/collection/machine-learning) collection provides UK guidance on securing AI systems.
+### Google Cloud resources
 
-For GCP policy and security tooling, see the [GCP Organization policy documentation](https://cloud.google.com/resource-manager/docs/organization-policy), [VPC Service Controls](https://cloud.google.com/vpc-service-controls), [Cloud Logging](https://cloud.google.com/logging), [Cloud Monitoring](https://cloud.google.com/monitoring) and [IAM Policy Analyzer](https://cloud.google.com/iam/docs/policy-intelligence).
+- [Gemini Code Assist documentation](https://cloud.google.com/gemini/docs/codeassist)
+- [Gemini Code Assist security](https://cloud.google.com/gemini/docs/codeassist/security-and-privacy)
+- [Google Cloud Architecture Framework](https://cloud.google.com/architecture/framework)
+- [GCP Security Best Practices](https://cloud.google.com/security/best-practices)
+- [Security Command Center](https://cloud.google.com/security-command-center)
+
+### AI security resources
+
+- [OWASP LLM Top 10](https://genai.owasp.org/llm-top-10/) lists top security risks for large language model applications
+- [OWASP Agentic AI Threats and Mitigations](https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/) describes security considerations for autonomous AI systems
+- [NCSC AI and Machine Learning Security](https://www.ncsc.gov.uk/collection/machine-learning) provides UK guidance on securing AI systems
+
+### GCP governance resources
+
+- [GCP Organisation policy documentation](https://cloud.google.com/resource-manager/docs/organization-policy)
+- [VPC Service Controls](https://cloud.google.com/vpc-service-controls)
+- [Cloud Logging](https://cloud.google.com/logging)
+- [Cloud Monitoring](https://cloud.google.com/monitoring)
+- [IAM Policy Analyzer](https://cloud.google.com/iam/docs/policy-intelligence)

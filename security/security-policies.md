@@ -23,7 +23,7 @@ This policy governs the [guardrails base](../governance/guardrails-base.md) and 
 
 | Document | Purpose | Audience |
 |----------|---------|----------|
-| This policy | Mandates and governance | SROs, SIROs, Security Leads |
+| This policy | Mandates and governance | SROs, SIROs, security leads |
 | [Threat model](threat-modelling.md) | Risk assessment and threat catalogue | Security teams |
 | [Guardrails base](../governance/guardrails-base.md) | Technical controls | All users |
 | Tool guides | Tool-specific implementation | Users of specific tools |
@@ -95,7 +95,7 @@ Responsibilities include:
 
 ### AI security lead
 
-The AI Security Lead provides day-to-day security oversight.
+The AI security leads provide day-to-day security oversight.
 
 Responsibilities include:
 
@@ -148,7 +148,7 @@ Responsibilities include:
 | Configuration | Tool must be configurable to meet guardrails |
 | Audit capability | Tool must provide adequate logging for accountability |
 
-Authority: AI Security Lead approves tools; SIRO approves L5 autonomous tools.
+Authority: AI security lead approves tools; SIRO approves L5 autonomous tools.
 
 This requirement ensures that organisations select AI coding assistants appropriate to their specific security context, as outlined in the [UK AI Playbook for Government](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html) Principle 6.
 
@@ -399,26 +399,26 @@ This policy recognises four distinct tool categories, each with unique security 
 
 #### Tool-specific notes
 
-GitHub Copilot must have:
-  - enterprise cloud or GitHub Enterprise Server required for government
+GitHub Copilot must have include:
+  - a enterprise cloud or GitHub Enterprise Server required for government
   - business plan not sufficient for OFFICIAL SENSITIVE
   - code referencing feature enabled to identify public code matches
   - content exclusions configured for sensitive repositories
   
-Amazon Q Developer must have:
+Amazon Q Developer must have include:
   - AWS Bedrock backend (not SaaS endpoint)
   - AWS region restricted to UK (eu west 2) or approved EU regions
   - IAM policies enforce least privilege access
   - CloudTrail logging mandatory
   
-Gemini Code Assist must have:
+Gemini Code Assist must have include:
   - Vertex AI (not consumer Google AI)
   - data residency controls configured for EU/UK
   - cloud logging enabled
   - Duet AI enterprise features only
   
-- Claude.ai must have:
-  - enterprise plan required (not Pro or Free)
+- Claude.ai must have include:
+  - a enterprise plan required (not Pro or Free)
   - data retention controls configured (no training on prompts)
   - usage tracked via API keys per team
 

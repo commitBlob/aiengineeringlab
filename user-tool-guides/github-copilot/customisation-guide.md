@@ -618,6 +618,11 @@ Refine your configuration based on usage patterns.
 
 ## Further reading
 
-The [GitHub Copilot documentation](https://docs.github.com/copilot) covers [custom instructions](https://docs.github.com/copilot/how-tos/configure-custom-instructions), [custom agents](https://docs.github.com/copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents), [hooks](https://docs.github.com/en/copilot/reference/hooks-configuration) and [skills](https://docs.github.com/copilot/concepts/agents/about-agent-skills). For community examples see the [Awesome Copilot repository](https://github.com/github/awesome-copilot) and for the cross-tool format see the [AGENTS.md standard](https://agents.md/).
-
-Some features are in public preview and subject to change. Check the [official documentation](https://docs.github.com/copilot) for the latest information.
+- [GitHub Copilot documentation](https://docs.github.com/copilot)
+- [Custom instructions guidance](https://docs.github.com/copilot/how-tos/configure-custom-instructions)
+- [Custom agents guidance](https://docs.github.com/copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents)
+- [Hooks reference](https://docs.github.com/en/copilot/reference/hooks-configuration)
+- [Agent skills guidance](https://docs.github.com/copilot/concepts/agents/about-agent-skills)
+- [Awesome Copilot repository](https://github.com/github/awesome-copilot) for community examples
+- [AGENTS.md standard](https://agents.md/) for cross-tool format
+- [Official GitHub Copilot documentation](https://docs.github.com/copilot) for the latest information

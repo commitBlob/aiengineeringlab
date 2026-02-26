@@ -96,8 +96,6 @@ When you select a more powerful AI model beyond the included ones, each interact
 
 These models are suitable for most everyday development tasks and do not consume premium requests.
 
-Important note on model availability:
-
 Your organisation or enterprise administrator can control which models are available to you through Copilot policies. You may not see a model listed above in your integrated development environment (IDE) because:
 
 - your administrator may have restricted access to certain models to control costs or meet governance requirements
@@ -336,8 +334,21 @@ GitHub Copilot is billed in US dollars (USD). UK government departments should a
 
 ## Further reading
 
-See [Plans for GitHub Copilot](https://github.com/features/copilot/plans) for pricing and plan comparisons, and [Requests in GitHub Copilot](https://docs.github.com/en/copilot/concepts/billing/copilot-requests) for how premium requests work. To configure allowances, see [Managing the premium request allowance](https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/manage-request-allowances). For budget configuration and tracking, see [Setting up budgets](https://docs.github.com/en/billing/tutorials/set-up-budgets) and [Monitoring usage](https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/monitor-premium-requests).
+### GitHub Copilot documentation
 
-For the latest feature updates, see the [GitHub Copilot changelog](https://github.blog/changelog/label/copilot/).
+- [Plans for GitHub Copilot](https://github.com/features/copilot/plans) lays out pricing and plan comparisons
+- [Requests in GitHub Copilot](https://docs.github.com/en/copilot/concepts/billing/copilot-requests) describes how premium requests work.
+- [Managing the premium request allowance](https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/manage-request-allowances) - configuration guidance
+- [Setting up budgets](https://docs.github.com/en/billing/tutorials/set-up-budgets) covers budget configuration
+- [Monitoring usage](https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/monitor-premium-requests) describes usage tracking
 
-See the [GitHub Copilot getting started guide](getting-started.md) for initial setup and safe usage, the [advanced use guide](advanced-use.md) for advanced features and techniques, and the [customisation guide](customisation-guide.md) for custom instructions and configuration.
+### Change log and updates
+
+- [GitHub Copilot changelog](https://github.blog/changelog/label/copilot/) provides the latest feature updates
+
+### Related guidance
+
+- [GitHub Copilot getting started guide](getting-started.md) covers initial setup and safe usage
+- [GitHub Copilot advanced use guide](advanced-use.md) describes advanced features and techniques
+- [GitHub Copilot customisation guide](customisation-guide.md) covers custom instructions and configuration
+

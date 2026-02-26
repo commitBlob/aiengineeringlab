@@ -1153,7 +1153,7 @@ Residual risk: LOW
 
 Critical development workflows become dependent on AI tool availability, creating single points of failure and business continuity risks.
 
-Attack vectors includes:
+Attack vectors include:
 - provider outage affecting all development
 - API rate limiting or throttling
 - account suspension or service termination
@@ -1193,7 +1193,7 @@ Residual risk: LOW
 
 Excessive or malicious use of AI APIs resulting in unexpected costs, quota exhaustion or service degradation.
 
-Attack vectors includes:
+Attack vectors include:
 - runaway agentic sessions consuming excessive API calls
 - prompt injection causing infinite loops or repeated queries
 - credential theft enabling abuse of organization's account
@@ -1235,7 +1235,7 @@ Residual risk: LOW
 
 Users accept AI-generated code without adequate review, leading to quality, security and maintainability issues.
 
-Attack vectors includes:
+Attack vectors include:
 - automation bias (meaning trusting a machine over human judgment)
 - time pressure reducing review thoroughness
 - lack of security expertise to identify issues
@@ -1277,7 +1277,7 @@ User accepts AI generated content that is factually incorrect, including non-exi
 
 OWASP LLM Top 10: [LLM09:2025](https://genai.owasp.org/llm-top-10/) - Misinformation
 
-Attack vectors includes:
+Attack vectors include:
 - AI generates plausible but false information
 - user lacks expertise to verify claims
 - no validation process for AI suggestions
@@ -1321,7 +1321,7 @@ In shared cloud infrastructure, data from one tenant (customer) leaks to another
 #### Tool types affected
 GitHub Copilot (non-Enterprise), Claude.ai (Team plan), other shared SaaS offerings
 
-Attack vectors includes:
+Attack vectors include:
 - insufficient tenant isolation in provider infrastructure
 - context bleeding between users or organizations
 - shared model state retaining previous tenant data
@@ -1354,7 +1354,7 @@ Government data processed or stored in non-approved jurisdictions, violating dat
 #### Tool types affected
 All cloud-hosted tools
 
-Attack vectors includes:
+Attack vectors include:
 - provider processes data in non-UK or EU regions
 - backup or disaster recovery in unapproved locations
 - training data collection processed in other regions
@@ -1394,7 +1394,7 @@ Compromised or intentionally malicious IDE extension exfiltrates code, credentia
 #### Tool types affected
 Cursor, Windsurf, VS Code extensions, JetBrains plugins
 
-Attack vectors includes:
+Attack vectors include:
 - supply chain compromise of legitimate extension
 - malicious extension masquerading as AI assistant
 - extension update hijacking
@@ -1434,7 +1434,7 @@ Attacker accesses local cache or index containing sensitive code, embeddings or 
 #### Tool types affected
 Cursor (local index), Windsurf, tools with local caching
 
-Attack vectors includes:
+Attack vectors include:
 - malware accessing cache directory
 - physical access to unencrypted device
 - inadequate file permissions on cache
@@ -1476,7 +1476,7 @@ Downloaded model file contains backdoor, malicious behavior or has been tampered
 #### Tool types affected
 All self-hosted LLM deployments (Ollama, LocalAI, LM Studio)
 
-Attack vectors includes:
+Attack vectors include:
 - model downloaded from untrusted or compromised source
 - man in the middle during model download
 - compromised model repository (for example, Hugging Face)
@@ -1516,7 +1516,7 @@ If fine-tuning models locally, poisoned training data introduces backdoors or bi
 #### Tool types affected
 Self-hosted deployments with fine-tuning capability
 
-Attack vectors includes:
+Attack vectors include:
 - compromised fine-tuning training data
 - insider adds malicious training examples
 - automated data collection inadvertently includes poisoned data
@@ -1952,10 +1952,7 @@ Threat model version control:
 
 ### Industry research
 
-- Greshake et al. (2023) – Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection
-- Zou et al. (2023) – Universal and Transferable Adversarial Attacks on Aligned Language Models
 - Simon Willison – Prompt Injection Research Collection (https://simonwillison.net/tags/promptinjection/)
-
 - [OWASP Agentic AI Threats and Mitigations](https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/)
 - [OWASP Prompt Injection Prevention Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html)
 - [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework)

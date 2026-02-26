@@ -311,6 +311,17 @@ Model selection is highly personal and task dependent. What works best for one d
 
 ## Further reading
 
-Review useful resources including the [GitHub Copilot guide](../manager-tool-guides/github-copilot/), [Amazon Q Developer guide](../manager-tool-guides/amazon-q/), [tool comparative guidance](../manager-tool-guides/comparative-guidance.md) and [prompt library](../prompt-library/).
+### Useful resources
 
-For model documentation, see the [Claude API docs](https://docs.anthropic.com/claude/docs), [OpenAI API docs](https://platform.openai.com/docs) and [Google AI Studio docs](https://ai.google.dev/gemini-api/docs). For prompting techniques, see the [Anthropic](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) and [OpenAI](https://platform.openai.com/docs/guides/prompt-engineering) prompt engineering guides.
+- [GitHub Copilot guide](../manager-tool-guides/github-copilot/)
+- [Amazon Q Developer guide](../manager-tool-guides/amazon-q/)
+- [tool comparative guidance](../manager-tool-guides/comparative-guidance.md) to select appropriate tools
+- [prompt library](../prompt-library/) for ready to use examples
+
+### Model documentation
+
+- [Claude API Documentation](https://docs.anthropic.com/claude/docs) for the official Anthropic Claude documentation
+- [OpenAI API Documentation](https://platform.openai.com/docs) covers GPT models and API reference
+- [Google AI Studio Documentation](https://ai.google.dev/gemini-api/docs) for Gemini model documentation
+- [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) for Claude specific prompting techniques
+- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) covers best practice for GPT models

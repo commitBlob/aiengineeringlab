@@ -287,19 +287,27 @@ You should:
 
 ### Climate and environmental
 
-[MIT thesis: Net Climate Impact Score](https://dspace.mit.edu/bitstream/handle/1721.1/163428/The_Net_Climate_Impact_of_AI__Balancing_Current_Costs_with_Future_Climate_Benefits___v2%20(1).pdf?sequence=1&isAllowed=y) by Jennifer Turliuk introduces the framework for quantifying AI climate trade offs between training and inference emissions and avoided emissions elsewhere.
-
-[Nature, LSE and Systemiq: Green and intelligent](https://www.nature.com/articles/s44168-025-00252-3) provides system level modelling of AI climate impact, projecting reductions of 3.2 to 5.4 gigatonnes of CO2e per year by 2035.
-
-[PwC Value in Motion report](https://www.pwc.com/gx/en/news-room/press-releases/2025/ai-adoption-could-boost-global-gdp-by-an-additional-15-percentage.html) examines how AI adoption could offset its own energy use through economy wide efficiency gains in smart buildings, logistics and materials development.
+- [MIT thesis: Net Climate Impact Score](https://dspace.mit.edu/bitstream/handle/1721.1/163428/The_Net_Climate_Impact_of_AI__Balancing_Current_Costs_with_Future_Climate_Benefits___v2%20(1).pdf?sequence=1&isAllowed=y) by Jennifer Turliuk introduces the framework for quantifying AI climate trade offs
+- [Nature, LSE and Systemiq: Green and intelligent](https://www.nature.com/articles/s44168-025-00252-3) projects reductions of 3.2 to 5.4 gigatonnes of CO2e per year by 2035
+- [PwC Value in Motion report](https://www.pwc.com/gx/en/news-room/press-releases/2025/ai-adoption-could-boost-global-gdp-by-an-additional-15-percentage.html) examines how AI can offset its own energy use through economy wide efficiency gains
 
 ### Sector-specific case studies
 
-[DeepMind's wind energy case study](https://deepmind.google/discover/blog/machine-learning-can-boost-the-value-of-wind-energy/) shows how ML increases wind farm output value by around 20%. [Kilimo's precision irrigation work in Kenya](https://safic.strathmore.edu/kilimo-ai-turning-agricultural-knowledge-into-action-for-kenyas-food-future/) cuts water use by 30% and improves farmer returns. Broader [AI in agriculture case studies](https://climate.ai/blog/ai-in-agriculture/) cover crop yield, irrigation and supply chain applications.
+- [DeepMind's wind energy case study](https://deepmind.google/discover/blog/machine-learning-can-boost-the-value-of-wind-energy/) shows how ML increases wind farm output value by around 20%
+- [Kilimo's precision irrigation work in Kenya](https://safic.strathmore.edu/kilimo-ai-turning-agricultural-knowledge-into-action-for-kenyas-food-future/) cuts water use by 30% and improves farmer returns
+- [AI in agriculture case studies](https://climate.ai/blog/ai-in-agriculture/) cover crop yield, irrigation and supply chain applications
 
 ### Critical perspectives
 
-[Carbon Brief](https://www.carbonbrief.org/ai-five-charts-that-put-data-centre-energy-use-and-emissions-into-context/) puts data centre energy use and emissions in context. [MIT Technology Review](https://www.technologyreview.com/2023/12/05/1084417/ais-carbon-footprint-is-bigger-than-you-think/) examines the true scale of AI's carbon footprint.
+- [Carbon Brief](https://www.carbonbrief.org/ai-five-charts-that-put-data-centre-energy-use-and-emissions-into-context/) puts data centre energy use and emissions in context
+- [MIT Technology Review](https://www.technologyreview.com/2023/12/05/1084417/ais-carbon-footprint-is-bigger-than-you-think/) examines the true scale of AI's carbon footprint
 
 ### UK public sector and societal benefit
-The [UK National AI Strategy (2021)](https://www.gov.uk/government/publications/national-ai-strategy) sets the policy context. The [Alan Turing Institute](https://www.turing.ac.uk/) leads research programmes. The [NHS AI Lab](https://www.england.nhs.uk/aac/what-we-do/how-can-ai-help/ai-lab/) publishes evaluations and case studies, supported by the [Incubator for AI](https://i-ai.org.uk/) project portfolio. Clinical governance draws on the [House of Lords Library briefing](https://lordslibrary.parliament.uk/artificial-intelligence-in-the-nhs/), [HFMA guidance](https://www.hfma.org.uk/topics/artificial-intelligence) and [Royal College of Radiologists deployment reviews](https://www.rcr.ac.uk/our-services/all-our-publications/clinical-radiology-publications/artificial-intelligence/).
+
+- [UK National AI Strategy (2021)](https://www.gov.uk/government/publications/national-ai-strategy) sets the policy context
+- [Alan Turing Institute](https://www.turing.ac.uk/) leads research programmes
+- [NHS AI Lab](https://www.england.nhs.uk/aac/what-we-do/how-can-ai-help/ai-lab/) publishes evaluations and case studies
+- [Incubator for AI](https://i-ai.org.uk/) project portfolio supports NHS AI Lab
+- [House of Lords Library briefing](https://lordslibrary.parliament.uk/artificial-intelligence-in-the-nhs/) covers clinical governance
+- [HFMA guidance](https://www.hfma.org.uk/topics/artificial-intelligence) on AI in healthcare finance
+- [Royal College of Radiologists deployment reviews](https://www.rcr.ac.uk/our-services/all-our-publications/clinical-radiology-publications/artificial-intelligence/) cover AI in clinical radiology

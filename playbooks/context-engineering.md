@@ -710,6 +710,16 @@ Current function:
 
 ## Further reading
 
-Review the [AI-SDLC playbook](ai-sdlc-playbook.md), [model selection playbook](model-selection.md), [prompt library](../prompt-library/) and [guardrails base](../governance/guardrails-base.md) for related guidance.
+### Internal resources
 
-External references include the [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/claude/docs/prompt-engineering), [GitHub Copilot documentation](https://docs.github.com/en/copilot), [GOV.UK Design System](https://design-system.service.gov.uk/) and [GDS way coding standards](https://gds-way.cloudapps.digital/).
+- [AI-SDLC playbook](ai-sdlc-playbook.md) cover integrating AI into development lifecycle
+- [Model selection playbook](model-selection.md) describes choosing the right model for tasks
+- [Prompt library](../prompt-library/) covers reusable prompt patterns
+- [Guardrails base](../governance/guardrails-base.md) lays out security boundaries
+
+### External resources
+
+- [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/claude/docs/prompt-engineering)
+- [GitHub Copilot documentation](https://docs.github.com/en/copilot)
+- [GOV.UK Design System](https://design-system.service.gov.uk/)
+- [GDS way coding standards](https://gds-way.cloudapps.digital/)

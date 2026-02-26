@@ -158,4 +158,9 @@ Gemini Code Assist:
 
 ## Further reading
 
-To contribute a new prompt, use the [prompt template](prompt-template.md), which provides a structured format with all required sections. The [context engineering playbook](../playbooks/context-engineering.md) provides techniques for structuring information and managing context windows to improve AI output quality. The [AI-SDLC playbook](../playbooks/ai-sdlc-playbook.md) covers how AI coding assistants fit into each phase of the software development lifecycle. Before using or sharing prompts in a government context, check the [guardrails base](../governance/guardrails-base.md), which defines the security and usage boundaries for all AI Engineering Lab deployments. The [GitHub Copilot documentation](https://docs.github.com/en/copilot) covers the full range of Copilot features and configuration options. Anthropic's [prompt engineering guide](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) covers techniques specific to Claude.
+- [Prompt template](prompt-template.md)
+- [Context engineering playbook](../playbooks/context-engineering.md)
+- [AI-SDLC playbook](../playbooks/ai-sdlc-playbook.md)
+- [Guardrails base](../governance/guardrails-base.md)
+- [GitHub Copilot documentation](https://docs.github.com/en/copilot)
+- [Prompt engineering guide](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview)

@@ -801,10 +801,29 @@ Escalate immediately if you identify:
 
 ## Further reading
 
-The [base guardrails](../../governance/guardrails-base.md) define foundational security controls. The [AI SDLC playbook](../../playbooks/ai-sdlc-playbook.md) covers integrating AI tools across the development lifecycle, and the [incident response playbook](../../governance/incident-response-playbook.md) covers responding to AI tool incidents. The [GitHub Copilot manager guide](../../manager-tool-guides/github-copilot/README.md) provides broader implementation guidance.
+### Internal documentation
 
-The [Government Service Manual](https://www.gov.uk/service-manual) and [Government Service Standard](https://www.gov.uk/service-manual/service-standard) set the baseline for service delivery. The [Technology Code of Practice](https://www.gov.uk/guidance/the-technology-code-of-practice) and [Government Security Classifications](https://www.gov.uk/government/publications/government-security-classifications) define technical and security standards. The [NCSC Cloud Security Principles](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles) cover cloud-specific security requirements.
+- [Base guardrails](../../governance/guardrails-base.md) defines foundational security controls for AI tools
+- [AI SDLC playbook](../../playbooks/ai-sdlc-playbook.md) covers integrating AI across development lifecycle
+- [Incident response playbook](../../governance/incident-response-playbook.md) covers responding to AI tool incidents
+- [GitHub Copilot manager guide](../../manager-tool-guides/github-copilot/README.md) defines implementation guidance for managers
 
-The [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/) covers GitHub's security and privacy commitments. [Data security for GitHub Copilot Business](https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot-business#data-security) details data handling, and [managing Copilot policies](https://docs.github.com/en/copilot/managing-copilot/managing-policies-for-copilot-in-your-organization) explains organisation-level configuration options.
+### Government guidance
 
-The [OWASP LLM Top 10](https://genai.owasp.org/llm-top-10/) covers top security risks for large language model applications. [OWASP Agentic AI Threats and Mitigations](https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/) addresses security considerations for autonomous AI systems. The [NCSC AI and Machine Learning Security](https://www.ncsc.gov.uk/collection/machine-learning) collection provides UK guidance on securing AI systems.
+- [Government Service Manual](https://www.gov.uk/service-manual) sets principles for digital services
+- [Government Service Standard](https://www.gov.uk/service-manual/service-standard) sets a point checklist for services
+- [Technology Code of Practice](https://www.gov.uk/guidance/the-technology-code-of-practice) provides technology decisions guidance
+- [Government Security Classifications](https://www.gov.uk/government/publications/government-security-classifications) advises on data classification levels
+- [NCSC Cloud Security Principles](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles) describes cloud security standards
+
+### GitHub resources
+
+- [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/) describes data security and privacy
+- [GitHub Copilot Business Data Security](https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot-business#data-security) explains enterprise security features
+- [Managing GitHub Copilot Policies](https://docs.github.com/en/copilot/managing-copilot/managing-policies-for-copilot-in-your-organization) advises on policy configuration
+
+### AI security resources
+
+- [OWASP LLM Top 10](https://genai.owasp.org/llm-top-10/) describes top security risks for language models
+- [OWASP Agentic AI Threats and Mitigations](https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/) describes autonomous AI system security
+- [NCSC AI and Machine Learning Security](https://www.ncsc.gov.uk/collection/machine-learning) provides UK AI security guidance

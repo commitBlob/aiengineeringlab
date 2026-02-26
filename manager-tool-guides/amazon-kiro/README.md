@@ -131,7 +131,7 @@ For detailed model capabilities and limitations, see:
 - [Model selection playbook](../../playbooks/model-selection.md) - choosing appropriate models for tasks
 
 # UK government-specific considerations
-Unlike the EU, UK uses a [principle-based regulatory approach](https://commonslibrary.parliament.uk/research-briefings/cbp-10003/). This is regulated through existing legal frameworks and [sector specific guidance](https://www.lawgazette.co.uk/practice-points/ai-regulation-what-uk-businesses-need-to-know/5123086.article). There is additional guidance for public sector AI ethics and governance.
+Unlike the EU, the UK uses a [principle-based regulatory approach](https://commonslibrary.parliament.uk/research-briefings/cbp-10003/). This is regulated through existing legal frameworks and [sector specific guidance](https://www.lawgazette.co.uk/practice-points/ai-regulation-what-uk-businesses-need-to-know/5123086.article). There is additional guidance for public sector AI ethics and governance.
 
 ### Security classification
 

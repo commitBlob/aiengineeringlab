@@ -43,7 +43,7 @@ GitHub Copilot is EU resident, not UK resident.
 
 ### What it is
 
-[Amazon Kiro](https://kiro.dev/) is an agent based AI IDE and command line tool. It runs partly on the developer machine and partly against AWS hosted services.
+[Amazon Kiro](https://kiro.dev/) is an agent-based AI IDE and command line tool. It runs partly on the developer machine and partly against AWS hosted services.
 
 ### Residency overview
 

@@ -72,9 +72,9 @@ You must require suppliers to provide:
 
 Suppliers must provide assurance through one or more of the following:
 
-- [ISO 27001:2022 Information Security Management](https://www.iso.org/standard/27001)
+- [ISO/IEC 27001:2022 on information security management systems](https://www.iso.org/standard/27001)
 - [SOC 2 Type 2 (American Institute of Certified Public Accountants - AICPA)](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2)
-- [Cyber Essentials Plus](https://www.ncsc.gov.uk/cyberessentials/overview)
+- [Plus certification level of the Cyber Essentials](https://www.ncsc.gov.uk/cyberessentials/overview)
 
 You may accept equivalent assurance only if you record your justification.
 
@@ -244,4 +244,12 @@ You can attach this schedule to framework call off contracts. If there is a conf
 
 ## Further reading
 
-The [Crown Commercial Service G-Cloud Framework](https://www.crowncommercial.gov.uk/agreements/RM1557.14) and [Government Commercial Function Commercial Playbooks](https://www.gov.uk/government/publications/ppn-011-the-commercial-playbooks) provide the procurement framework within which these contract requirements sit. The [NCSC Supply Chain Security](https://www.ncsc.gov.uk/collection/supply-chain-security) guidance covers the broader risk management approach for third-party dependencies. For related internal guidance, see the [security policies](../policy) covering PS-09 and PS-11, the [data sovereignty and jurisdiction](../policy/data-sovereignty-and-jurisdiction.md) guidance for data residency and retention requirements, the [model assurance and transparency](model-assurance-and-transparency.md) document for vendor transparency requirements, the [comparative guidance](../manager-tool-guides/comparative-guidance.md) for vendor evaluation, the [risk register template](risk-register-template.md) for vendor risk documentation, and the [DPIA guidance](../policy/dpia-ai-coding-assistants.md) for data protection requirements.
+- the Crown Commercial Service's (CCS) [G-Cloud 14](https://www.crowncommercial.gov.uk/agreements/RM1557.14)  of the G-Cloud framework - provides the procurement framework within which these contract requirements sit
+- UK government's [PPN 011: The Commercial Playbooks](https://www.gov.uk/government/publications/ppn-011-the-commercial-playbooks) - provides the procurement framework within which these contract requirements sit
+- NCSC's [Supply chain security guidance](https://www.ncsc.gov.uk/collection/supply-chain-security) - covers the broader risk management approach for third-party dependencies
+- [Security policies](../security/security-policies.md) - covering PS-09 and PS-11
+- [Data sovereignty and jurisdiction](../policy/data-sovereignty-and-jurisdiction.md) - guidance for data residency and retention requirements
+- [Model assurance and transparency](model-assurance-and-transparency.md) - vendor transparency requirements
+- [Comparative guidance](../manager-tool-guides/comparative-guidance.md) - for vendor evaluation
+- [Risk register template](risk-register-template.md) - for vendor risk documentation
+- [DPIA guidance](../policy/dpia-ai-coding-assistants.md) - for data protection requirements

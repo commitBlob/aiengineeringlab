@@ -11,21 +11,21 @@ AI coding assistants transmit prompt data to cloud-based inference services. US-
 
 This document defines:
 
-- the UK government position on data sovereignty for AI inference (not model training or research and development)
+- UK government's position on data sovereignty for AI inference (not model training or research and development)
 - a legal analysis of US jurisdiction and the CLOUD Act, including how it applies to inference services and available mitigations
 - requirements for data residency, retention, and secondary use
 - when UK sovereign processing is required versus desirable
 - vendor compliance assessment criteria
 
-It is intended both as implementation guidance for assurance teams and as material suitable for governance board risk approval.
+This document is intended both as implementation guidance for assurance teams and as material suitable for governance board risk approval.
 
 ## Who this is for
 
 This guidance is for:
 
-- Senior Information Risk Owners (SIROs)
+- Senior information risk owners (SIROs)
 - AI security leads and architects
-- Data Protection Officers (DPOs)
+- Data protection officers (DPOs)
 - Procurement and commercial teams
 - Governance and assurance boards
 

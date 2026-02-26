@@ -866,4 +866,7 @@ Do not say:
 
 ## Further reading
 
-The [maturity assessment framework](../assessment/maturity-assessment-framework.md) provides a structured method for evaluating team readiness before AI Engineering Lab deployment. The metrics in this playbook draw on the [DORA four keys](https://dora.dev/guides/dora-metrics-four-keys/) for software delivery performance. The research published in [Accelerate](https://itrevolution.com/product/accelerate/) by Forsgren, Humble and Kim provides the evidence base for these measures. The [GDS service manual section on measuring success](https://www.gov.uk/service-manual/measuring-success) provides broader guidance on measuring government digital service performance.
+- [Maturity assessment framework](../assessment/maturity-assessment-framework.md)
+- [DORA four keys](https://dora.dev/guides/dora-metrics-four-keys/)
+- [Accelerate](https://itrevolution.com/product/accelerate/) by Forsgren, Humble and Kim
+- [GDS service manual: measuring success](https://www.gov.uk/service-manual/measuring-success)

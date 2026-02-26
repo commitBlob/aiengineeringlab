@@ -533,3 +533,21 @@ For GitHub Copilot, see the official docs on [custom instructions overview](http
 
 For government standards, refer to the [GDS Service Manual](https://www.gov.uk/service-manual), [Digital Service Standard](https://www.gov.uk/service-manual/service-standard), [GOV.UK Design System](https://design-system.service.gov.uk/), [WCAG 2.1 Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/) and [NCSC Cloud Security Guidance](https://www.ncsc.gov.uk/collection/cloud-security).
 
+### Official documentation
+
+- [Configure Custom Instructions for GitHub Copilot](https://docs.github.com/en/copilot/customizing-copilot/configure-custom-instructions-for-github-copilot) gives an overview of custom instructions at all levels
+- [Adding Personal Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-personal-custom-instructions-for-github-copilot) covers how to set up your personal preferences
+- [Adding Repository Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot) gives a detailed guide to repository level instructions
+- [Adding Organisation Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-organization-custom-instructions-for-github-copilot) covers organisation wide standards
+
+### Government standards
+
+- [GDS Service Manual](https://www.gov.uk/service-manual) gives guidance for building government services
+- [Government Digital Service Standard](https://www.gov.uk/service-manual/service-standard) describes the 14-point standard
+- [GOV.UK Design System](https://design-system.service.gov.uk/) covers design patterns and components
+- [WCAG 2.1 Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/) provides accessibility guidelines
+- [NCSC Cloud Security Guidance](https://www.ncsc.gov.uk/collection/cloud-security) describes security principles for cloud
+
+### Example instruction files
+
+- [GitHub Awesome Copilot - Instructions Examples](https://github.com/github/awesome-copilot/tree/main/instructions) provides a collection of real-world copilot-instructions.md examples from various projects

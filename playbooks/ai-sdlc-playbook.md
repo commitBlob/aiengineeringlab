@@ -484,4 +484,14 @@ If you encounter challenges using AI coding assistants effectively, complete the
 
 ## Further reading
 
-The [context engineering playbook](context-engineering.md) and [model selection guidance](model-selection.md) provide deeper guidance on getting the best from AI coding assistants. The [guardrails base configuration](../governance/guardrails-base.md) defines your organisation's constraints. For broader context, refer to the [government AI Playbook](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government) and [service manual](https://www.gov.uk/service-manual). The [Version 1 UK Gov Example AI SDLC](https://github.com/Version1/uk-gov-example-ai-sdlc) provides a worked example.
+### Interal resources
+
+- [Context engineering playbook](context-engineering.md)
+- [Model selection guidance](model-selection.md)
+- [Guardrails base configuration](../governance/guardrails-base.md)
+
+### External resources
+
+- [Government AI Playbook](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government)
+- [Service manual](https://www.gov.uk/service-manual)
+- [Version 1 UK Gov Example AI SDLC](https://github.com/Version1/uk-gov-example-ai-sdlc)

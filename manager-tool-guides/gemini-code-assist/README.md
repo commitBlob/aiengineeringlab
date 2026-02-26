@@ -72,9 +72,9 @@ Gemini Code Assist can:
 
 ### Agent mode
 
-Agent mode handles complex tasks spanning multiple files. It analyses your codebase, proposes a plan for your review, then executes changes with your oversight at each step. The [agent mode documentation](https://developers.google.com/gemini-code-assist/docs/write-code-gemini) covers the full range of capabilities.
+Agent mode handles complex tasks spanning multiple files. It analyses your codebase, proposes a plan for your review, then executes changes with your oversight at each step. The documentation on how to [Code with Gemini Code Assist](https://developers.google.com/gemini-code-assist/docs/write-code-gemini) covers the full range of capabilities.
 
-Gemini Code Assist tools were deprecated on 14 October 2025. External service integrations now use Model Context Protocol (MCP) servers in agent mode. See the [Developer Knowledge API and MCP server guidance](developer-knowledge-api-and-mcp-server-guidance.md) for configuration details.
+Gemini Code Assist tools were deprecated on 14 October 2025. External service integrations now use Model Context Protocol (MCP) servers in agent mode. See the [Developer Knowledge API and MCP server guidance](./developer-knowledge-api-and-mcp-server-guidance.md) for configuration details.
 
 ## How it compares with other AI Engineering Lab tools
 

@@ -15,13 +15,13 @@ This document provides:
 - a framework for demonstrating proportionality and necessity
 - analysis of lawful basis for processing
 - a prepopulated DPIA template for departments to complete
-- guidance on consulting the Data Protection Officer (DPO)
+- guidance on consulting the data protection officer (DPO)
 
 ## Who this is for
 
 This guidance is for:
 
-- Data Protection Officers (DPOs) advising on AI coding assistant deployments
+- Data protection officers (DPOs) advising on AI coding assistant deployments
 - AI security leads preparing governance documentation
 - Senior Information Risk Owners (SIROs) approving AI tool adoption
 - legal and compliance teams assessing GDPR implications

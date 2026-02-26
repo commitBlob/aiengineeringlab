@@ -491,8 +491,22 @@ For detailed prompt engineering techniques and strategies, see the [Prompt engin
 
 ## Further reading
 
-For Gemini Code Assist, see the [documentation](https://cloud.google.com/gemini/docs/codeassist), [getting started guide](https://cloud.google.com/gemini/docs/codeassist/getting-started), [agent mode](https://developers.google.com/gemini-code-assist/docs/use-agentic-chat-pair-programmer), [MCP configuration](https://docs.cloud.google.com/gemini/docs/codeassist/configure-mcp-servers), [GitHub customisation](https://developers.google.com/gemini-code-assist/docs/customize-gemini-behavior-github), and [chat and custom commands](https://developers.google.com/gemini-code-assist/docs/chat-gemini).
+### Official Google documentation
 
-For government and security guidance, see the [NCSC secure development guidance](https://www.ncsc.gov.uk/collection/developers-collection), [Government Design System](https://design-system.service.gov.uk/), and [Service Manual: Technology](https://www.gov.uk/service-manual/technology).
+- [Gemini Code Assist documentation](https://cloud.google.com/gemini/docs/codeassist)
+- [Getting started guide](https://cloud.google.com/gemini/docs/codeassist/getting-started)
+- [Agent mode documentation](https://developers.google.com/gemini-code-assist/docs/use-agentic-chat-pair-programmer)
+- [Model Context Protocol (MCP) configuration](https://docs.cloud.google.com/gemini/docs/codeassist/configure-mcp-servers)
+- [GitHub customisation](https://developers.google.com/gemini-code-assist/docs/customize-gemini-behavior-github)
+- [Chat and custom commands](https://developers.google.com/gemini-code-assist/docs/chat-gemini)
 
-Related internal resources: [AI SDLC playbook](../../playbooks/ai-sdlc-playbook.md) and [Getting started guide](getting-started.md).
+### Government guidance
+
+- [NCSC secure development guidance](https://www.ncsc.gov.uk/collection/developers-collection)
+- [Government Design System](https://design-system.service.gov.uk/)
+- [Service Manual: Technology](https://www.gov.uk/service-manual/technology)
+
+### AI Engineering Lab resources
+
+- [AI SDLC playbook](../../playbooks/ai-sdlc-playbook.md)
+- [Getting started guide](getting-started.md)

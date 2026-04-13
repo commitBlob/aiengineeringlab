@@ -5,8 +5,6 @@
 
 This repository is a central home for all AI Engineering Lab content across government departments. It provides reusable guidance, templates, training materials, and practices for safely and effectively adopting AI code assistants.
 
-To find out more and get involved, visit the [AI Engineering Lab site](https://govuk-digital-backbone.github.io/aiengineeringlab_signpost/).
-
 ## Quick navigation
 
 | Section | Description |
@@ -40,21 +38,24 @@ This repository is for:
 
 ### I'm an engineer wanting to use AI code assistants
 
-1. Read the [AI-SDLC Playbook](playbooks/ai-sdlc-playbook.md) for integration guidance.
-2. Review the [Guardrails](governance/guardrails-base.md) to understand usage boundaries.
-3. Explore the [Prompt Library](prompt-library/) for proven patterns.
+1. Read [how AI code assistants integrate into the SDLC](playbooks/ai-tools-integration-guide.md) for an overview of deployment patterns and capability maturity.
+2. Read the [AI assisted SDLC playbook](playbooks/ai-sdlc-playbook.md) for phase-by-phase guidance.
+3. Review the [guardrails](governance/guardrails-base.md) to understand usage boundaries.
+4. Explore the [prompt library](prompt-library/) for proven patterns.
 
 ### I'm a technical lead setting up my team
 
-1. Review [Context Engineering](playbooks/context-engineering.md) for repository setup.
-2. Establish baseline metrics using the [Quality Strategy](quality-metrics/quality-strategy.md).
-3. Consider requesting [FDE support](#forward-deployed-engineering-support) for your rollout.
+1. Read [how AI code assistants integrate into the SDLC](playbooks/ai-tools-integration-guide.md) to understand deployment options and the capability maturity progression.
+2. Review [context engineering](playbooks/context-engineering.md) for repository setup.
+3. Establish baseline metrics using the [quality strategy](quality-metrics/quality-strategy.md).
+4. Consider requesting [forward deployed engineering support](#forward-deployed-engineering-support) for your rollout.
 
 ### I'm a manager selecting tools for my department
 
-1. Start with [Comparative Guidance](manager-tool-guides/comparative-guidance.md).
-2. Review tool-specific guides: [GitHub Copilot](manager-tool-guides/github-copilot/) and [Amazon Q](manager-tool-guides/amazon-q/).
-3. Review the [Model Selection Playbook](playbooks/model-selection.md).
+1. Read [how AI code assistants integrate into the SDLC](playbooks/ai-tools-integration-guide.md) for an overview of what adoption involves.
+2. Start with [comparative guidance](manager-tool-guides/comparative-guidance.md) to evaluate tools.
+3. Review tool-specific guides for [GitHub Copilot](manager-tool-guides/github-copilot/) and [Amazon Q](manager-tool-guides/amazon-q/).
+4. Review the [model selection playbook](playbooks/model-selection.md).
 
 ### I'm a senior responsible owner needing governance assurance
 
@@ -113,6 +114,12 @@ Before contributing, read [CONTRIBUTING.md](CONTRIBUTING.md) which covers:
 ## Support and contact
 
 Contact gdsengineeringexcellence@dsit.gov.uk for general enquiries.
+
+Explore the [AI Engineering Lab website](https://govuk-digital-backbone.github.io/aiengineeringlab_signpost/) to understand the programme and find resources and role-specific information.
+
+## Join our community
+
+Join the [Knowledge Hub community](https://khub.net/group/ai-engineering-lab) to connect with other cross-government teams, share experiences and access events and support.
 
 ## Licence
 

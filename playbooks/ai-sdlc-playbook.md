@@ -22,6 +22,7 @@ It assumes basic familiarity with AI coding assistant tools but accommodates tea
 
 Before integrating AI coding assistants into your workflow, make sure you have:
 
+- read [how AI code assistants integrate into the SDLC](ai-tools-integration-guide.md) to understand deployment patterns and capability maturity
 - completed your department's AI Engineering Lab onboarding and received tool access
 - reviewed the 'guardrails-base.md' for your organisation
 - understood your team's data classification and what you can share with AI tools

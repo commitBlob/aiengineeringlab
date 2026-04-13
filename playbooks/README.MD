@@ -5,6 +5,12 @@
 
 This section provides operational guidance.
 
+## Start here
+
+| Section | Description |
+|---------|-------------|
+| [How AI code assistants integrate into the SDLC](ai-tools-integration-guide.md) | Overview of deployment patterns, capability maturity, and the distinction between code assistants and agentic pipelines |
+
 ## Quick navigation
 
 | Section | Description |

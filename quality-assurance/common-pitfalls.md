@@ -166,7 +166,7 @@ AI tools prioritise visual correctness and functional behaviour. Accessibility r
 
 ### Service Standard relevance
 
-Point 5 requires that everyone can use the service. Web Content Accessibility Guidelines (WCAG) 2.2 Level AA is the minimum standard for government services. Accessibility is not optional and is assessed at every stage, which includes alpha, beta, and live. Services that fail accessibility requirements fail the assessment.
+Point 5 requires that everyone can use the service. [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) Level AA is the minimum standard for government services. Accessibility is not optional and is assessed at every stage, which includes alpha, beta, and live. Services that fail accessibility requirements fail the assessment.
 
 ### How to avoid it
 

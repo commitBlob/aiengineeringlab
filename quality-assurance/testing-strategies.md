@@ -31,7 +31,7 @@ This is precisely why review is critical. The code looks correct, passes a casua
 
 AI tends to generate error handling that catches exceptions without doing anything meaningful. Watch for empty catch blocks, generic error messages that leak no useful diagnostic information, and catch-all handlers that mask specific failure modes.
 
-Does the error handling give the operations team enough information to diagnose the problem at 3am? Service Standard point 14 requires appropriate monitoring with a proportionate plan to respond to problems. Error handling that swallows context makes that impossible.
+Does the error handling give the operations team enough information to diagnose the problem at 3am? [Service Standard point 14](https://www.gov.uk/service-manual/service-standard/point-14-operate-a-reliable-service) requires appropriate monitoring with a proportionate plan to respond to problems. Error handling that swallows context makes that impossible.
 
 ### 2. Missing edge cases
 
@@ -56,7 +56,7 @@ AI does not know your threat model. It frequently generates code with:
 - missing rate limiting
 - overly permissive Cross-Origin Resource Sharing (CORS) configurations
 
-Service Standard point 9 requires teams to follow the [Secure by Design principles](https://www.security.gov.uk/policy-and-guidance/secure-by-design/). Teams must also perform due diligence on the security of third-party software. Run the code through your organisation's security scanning tools. These include SonarQube, Open Web Application Security Project (OWASP) Dependency-Check, static application security testing (SAST), and dynamic application security testing (DAST). Do this regardless of how secure it looks on inspection. AI-generated code is effectively third-party code and should be treated accordingly.
+[Service Standard point 9](https://www.gov.uk/service-manual/service-standard/point-9-create-a-secure-service) requires teams to follow the [Secure by Design principles](https://www.security.gov.uk/policy-and-guidance/secure-by-design/). Teams must also perform due diligence on the security of third-party software. Run the code through your organisation's security scanning tools. These include SonarQube, Open Web Application Security Project (OWASP) Dependency-Check, static application security testing (SAST), and dynamic application security testing (DAST). Do this regardless of how secure it looks on inspection. AI-generated code is effectively third-party code and should be treated accordingly.
 
 ### 4. Performance assumptions
 
@@ -79,7 +79,7 @@ AI follows general language conventions rather than your team's specific pattern
 - alternative library usage for functionality you already have
 - inconsistent error response formats
 
-Service Standard point 13 encourages use of common components and patterns. Does this code reuse existing patterns, or does it introduce something new without justification?
+[Service Standard point 13](https://www.gov.uk/service-manual/service-standard/point-13-use-common-standards-components-patterns) encourages use of common components and patterns. Does this code reuse existing patterns, or does it introduce something new without justification?
 
 ### 6. Accessibility gaps in generated user interface code
 
@@ -90,7 +90,7 @@ When AI generates front-end code, it frequently omits or incorrectly implements 
 - insufficient colour contrast
 - absent keyboard navigation support
 
-Service Standard point 5 requires that everyone can use the service. Web Content Accessibility Guidelines (WCAG) 2.2 Level AA is the minimum standard for government services. Check that AI-generated user interface (UI) code includes semantic HTML, keyboard operability, screen reader support, and adequate colour contrast (4.5:1 or above for normal text).
+[Service Standard point 5](https://www.gov.uk/service-manual/service-standard/point-5-make-sure-everyone-can-use-the-service) requires that everyone can use the service. Web Content Accessibility Guidelines (WCAG) 2.2 Level AA is the minimum standard for government services. Check that AI-generated user interface (UI) code includes semantic HTML, keyboard operability, screen reader support, and adequate colour contrast (4.5:1 or above for normal text).
 
 ### 7. Test quality issues
 
@@ -105,7 +105,7 @@ If you changed the implementation, would these tests catch a real regression?
 
 ### 8. Open source readiness
 
-Service Standard point 12 requires that new source code is made open. AI-generated code may include:
+[Service Standard point 12](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open) requires that new source code is made open. AI-generated code may include:
 
 - hardcoded configuration values
 - placeholder secrets or API keys
@@ -149,7 +149,7 @@ At beta and live service assessments, teams are expected to demonstrate how they
 - how review standards are documented and consistently applied
 - how review findings feed back into improved prompting practices and team guidance
 
-This evidence supports points 8 (iterate and improve), 9 (security), and 14 (reliability) of the Service Standard.
+This evidence supports points [8 (iterate and improve)](https://www.gov.uk/service-manual/service-standard/point-8-iterate-and-improve-frequently), [9 (security)](https://www.gov.uk/service-manual/service-standard/point-9-create-a-secure-service), and [14 (reliability)](https://www.gov.uk/service-manual/service-standard/point-14-operate-a-reliable-service) of the Service Standard.
 
 ## Coaching your team
 
@@ -157,4 +157,4 @@ When providing feedback on AI-generated code, focus on the why rather than just 
 
 Instead of 'This error handling is wrong', try 'The AI has generated a generic catch block here. In our codebase, we need to handle database connection failures separately from validation errors. This is because our monitoring system categorises alerts differently. Here is how we typically structure this...'
 
-Document your team's specific review expectations for AI-assisted code. Include examples of AI-generated code you have accepted and rejected, with explanations. Add these to your team's contributing guide and reference them in pull request templates. Service Standard point 8 expects teams to iterate and improve frequently. Your review standards should evolve as your team's experience with AI tools matures.
+Document your team's specific review expectations for AI-assisted code. Include examples of AI-generated code you have accepted and rejected, with explanations. Add these to your team's contributing guide and reference them in pull request templates. [Service Standard point 8](https://www.gov.uk/service-manual/service-standard/point-8-iterate-and-improve-frequently) expects teams to iterate and improve frequently. Your review standards should evolve as your team's experience with AI tools matures.

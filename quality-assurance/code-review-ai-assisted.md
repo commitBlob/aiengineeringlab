@@ -126,7 +126,7 @@ Before reading the code, understand which tool generated it and what prompt or c
 
 ### Step 2: Architecture review
 
-Does the change fit the existing architecture. All four tools frequently introduce new patterns or libraries when existing ones would suffice. Check that the solution aligns with your team's agreed approaches.
+Review whether the change fits the existing architecture. All four tools frequently introduce new patterns or libraries when existing ones would suffice. Check that the solution aligns with your team's agreed approaches.
 
 ### Step 3: Line-by-line with focus areas
 
@@ -134,7 +134,7 @@ Review the code with particular attention to the categories listed above. Spend 
 
 ### Step 4: Run the tests critically
 
-Do not just check that tests pass. Read the test code. Are the assertions meaningful. Do the tests cover failure scenarios. Would they catch a regression if the implementation changed.
+Do not just check that tests pass. You should read the test code, make sure the assertions are meaningful, ensure that the tests cover failure scenarios and would catch a regression if the implementation changed.
 
 ### Step 5: Check automated scan results
 

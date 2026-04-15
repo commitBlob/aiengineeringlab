@@ -23,7 +23,7 @@ Use this guide as a starting point. Each section links to detailed guidance else
 
 ## Who this is for
 
-Before adopting AI code assistants, consult your organisation's cyber security team to understand any department specific AI policies or restrictions that apply.
+Before adopting AI code assistants, consult your organisation's cyber security team to understand any department-specific AI policies or restrictions that apply.
 
 This guide is for anyone involved in adopting AI code assistants in government, including:
 
@@ -32,7 +32,7 @@ This guide is for anyone involved in adopting AI code assistants in government, 
 - delivery managers and product owners assessing what adoption involves
 - senior responsible owners needing an overview before reading detailed policy
 
-If you are looking for phase by phase guidance on using AI assistants during development, read the [AI assisted software development lifecycle playbook](ai-sdlc-playbook.md).
+If you are looking for phase-by-phase guidance on using AI assistants during development, read the [AI-assisted software development lifecycle playbook](ai-sdlc-playbook.md).
 
 ## Where AI code assistants run
 
@@ -40,9 +40,9 @@ AI code assistants follow one of three deployment patterns. The pattern affects 
 
 The three patterns are:
 
-- cloud hosted, where your code context is sent to an external provider for processing and suggestions are returned to your IDE
+- cloud-hosted, where your code context is sent to an external provider for processing and suggestions are returned to your IDE
 - IDE integrated (hybrid), where some processing happens locally on your machine and some is sent to a cloud provider
-- self hosted, where the model runs entirely on infrastructure your organisation controls with no external data transfer
+- self-hosted, where the model runs entirely on infrastructure your organisation controls with no external data transfer
 
 For detailed architecture diagrams and data flows for each pattern, read [threat model deployment architectures](../security/threat-modelling.md#deployment-architectures-and-data-flows-by-tool-type). For information on where each tool processes and stores data, read the [data residency guidance](../manager-tool-guides/data-residency.md).
 
@@ -52,11 +52,11 @@ Your deployment pattern depends on your security requirements, data classificati
 
 The [comparative guidance](../manager-tool-guides/comparative-guidance.md) provides a framework for evaluating tools against your needs. The [data sovereignty and jurisdiction guidance](../policy/data-sovereignty-and-jurisdiction.md) covers the legal and compliance considerations for each pattern.
 
-For most government teams working at OFFICIAL classification, cloud hosted tools with enterprise licensing provide the best balance of capability and security controls. Teams handling OFFICIAL SENSITIVE data should consider self hosted options or cloud tools with UK data residency. Read the [guardrails base configuration](../governance/guardrails-base.md) for the full set of environment restrictions.
+For most government teams working at OFFICIAL classification, cloud-hosted tools with enterprise licensing provide the best balance of capability and security controls. Teams handling OFFICIAL SENSITIVE data should consider self hosted options or cloud tools with UK data residency. Read the [guardrails base configuration](../governance/guardrails-base.md) for the full set of environment restrictions.
 
 ### Virtualised desktop environments
 
-Many government organisations use virtualised desktop infrastructure (VDI) such as [Citrix](https://www.citrix.com/products/citrix-virtual-apps-and-desktops/), [Azure Virtual Desktop](https://azure.microsoft.com/en-gb/products/virtual-desktop), or [Amazon WorkSpaces](https://aws.amazon.com/workspaces/). AI code assistants can work in these environments, but there are additional considerations:
+Many government organisations use virtualised desktop infrastructure (VDI) such as [Citrix](https://www.citrix.com/products/citrix-virtual-apps-and-desktops/), [Azure Virtual Desktop](https://azure.microsoft.com/en-gb/products/virtual-desktop), or [Amazon WorkSpaces](https://aws.amazon.com/workspaces/). AI code assistants can work in these environments, but there are additional considerations, including where:
 
 - network connectivity from the virtual desktop to the AI provider must be permitted through your organisation's firewall and proxy configuration
 - IDE extensions need to be installable within the virtual environment, which may require administrator approval
@@ -78,7 +78,7 @@ AI Engineering Lab measures team readiness separately through the [maturity asse
 
 The capability progression described here is different. It tracks how a team's technical practice changes as they gain experience with AI tools.
 
-Each of the following levels builds on the one before it. For example, agentic workflows at level 3 produce poor results without the shared instruction files and context engineering established at level 2. Teams that skip levels typically find AI output does not match their conventions. Without team specific context, the AI falls back on generic patterns from its training data.
+Each of the following levels builds on the one before it. For example, agentic workflows at level 3 produce poor results without the shared instruction files and context engineering established at level 2. Teams that skip levels typically find AI output does not match their conventions. Without team-specific context, the AI falls back on generic patterns from its training data.
 
 ### Level 1: basic prompting
 
@@ -97,7 +97,7 @@ At this level, engineers need:
 - awareness of AI limitations, including hallucinated dependencies and incorrect suggestions
 - knowledge of the [guardrails](../governance/guardrails-base.md) for safe use
 
-### Level 2: team wide context engineering
+### Level 2: team-wide context engineering
 
 The team invests in structured context so that AI tools produce more consistent and relevant output. This is where productivity gains become significant.
 
@@ -118,22 +118,22 @@ Read the [context engineering playbook](context-engineering.md) for detailed tec
 
 ### Level 3: agentic workflows
 
-Engineers use AI tools in agent mode. The tool executes multi step tasks with human oversight at checkpoints rather than one suggestion at a time.
+Engineers use AI tools in agent mode. The tool executes multi-step tasks with human oversight at checkpoints rather than one suggestion at a time.
 
 In practice, teams at this level:
 
 - delegate larger tasks to the AI, such as refactoring a module or generating a test suite across multiple files
 - apply AI-generated changes across several files in a single operation
-- review changes at checkpoints rather than line by line
+- review changes at checkpoints rather than line-by-line
 - complete in minutes, with review, tasks that previously took hours
 
 At this level, engineers need:
 
 - an understanding of how to define clear task boundaries for agentic operations
-- an ability to review AI generated changes effectively at scale
+- an ability to review AI-generated changes effectively at scale
 - familiarity with the [agentic AI guardrails](../governance/guardrails-base.md#agentic-ai-guardrails) including autonomy levels, checkpoint requirements, and kill switch procedures
 
-### Level 4: pipeline integration and multi agent systems
+### Level 4: pipeline integration and multi-agent systems
 
 Teams embed AI in automated workflows beyond the developer's IDE. This is the most advanced stage and requires additional governance.
 
@@ -164,9 +164,9 @@ An agentic pipeline is AI embedded in an automated workflow. It runs without con
 
 ### Where each fits in the SDLC
 
-Code assistants support developers across every phase of the software development lifecycle. The [AI assisted SDLC playbook](ai-sdlc-playbook.md) covers this in detail, from planning through to monitoring.
+Code assistants support developers across every phase of the software development lifecycle. The [AI-assisted SDLC playbook](ai-sdlc-playbook.md) covers this in detail, from planning through to monitoring.
 
-Agentic pipelines typically sit in specific phases:
+Agentic pipelines typically sit in specific phases, which are:
 
 - build and test, where agents run automated code review or generate test suites as part of CI
 - release, where agents generate documentation or changelog entries
@@ -178,7 +178,7 @@ Code assistants and agentic pipelines carry different levels of risk and require
 
 The [guardrails base configuration](../governance/guardrails-base.md#g-ag-01-autonomy-level-classification) classifies AI tools by autonomy level from level 1 (suggestive) through to level 5 (fully autonomous). Code assistants typically operate at levels 1 to 3. Agentic pipelines operate at levels 3 to 5.
 
-The governance requirements for each level are as follows:
+The governance requirements for each level are where:
 
 - code assistants require standard human review before code is committed
 - agentic pipelines at level 4 require checkpoint controls ([G-AG-04](../governance/guardrails-base.md#g-ag-04-checkpoint-requirements)), time limits, kill switch testing ([G-AG-03](../governance/guardrails-base.md#g-ag-03-kill-switch-requirements)), and branch isolation

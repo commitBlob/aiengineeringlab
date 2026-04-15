@@ -91,7 +91,7 @@ The enterprise has 13 models enabled. No custom models are configured. Organisat
 | Custom models via API key | Disabled everywhere | Only enterprise-approved models allowed |
 | Premium request paid usage | Enabled | Overspend covered by DSIT until programme end |
 
-If your team requires additional or custom models, raise a request with the AI Engineering Lab. All changes are assessed against DSIT data governance requirements.
+If your team requires additional or custom models, raise a request with AI Engineering Lab. All changes are assessed against DSIT data governance requirements.
 
 ### Metrics and usage
 

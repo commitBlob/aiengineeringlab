@@ -124,7 +124,7 @@ AI-generated code should meet the same standards as human-written code under [Na
 
 ### Technology Code of Practice
 
-Technology Code of Practice (TCoP) point 6 (Make things secure) requires that plans show how you are securing data and systems. This includes improving your mean time to recovery after incidents and aligning with the Security Policy Framework and Minimum Cyber Security Standard. Automated security scanning and clear remediation workflows support this.
+[Technology Code of Practice (TCoP) point 6 (Make things secure)](https://www.gov.uk/guidance/make-things-secure) requires that plans show how you are securing data and systems. This includes improving your mean time to recovery after incidents and aligning with the Security Policy Framework and Minimum Cyber Security Standard. Automated security scanning and clear remediation workflows support this.
 
 ### Departmental security policies
 

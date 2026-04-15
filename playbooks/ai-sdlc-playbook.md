@@ -333,7 +333,7 @@ Example prompt:
 'Generate a Terraform configuration for an AWS ECS service with:
 - application load balancer
 - auto-scaling based on CPU utilisation
-- cloudWatch logging
+- CloudWatch logging
 - security groups following least-privilege principles
 - tags for cost allocation
 
@@ -485,7 +485,7 @@ If you encounter challenges using AI coding assistants effectively, complete the
 
 ## Further reading
 
-### Interal resources
+### Internal resources
 
 - [Context engineering playbook](context-engineering.md)
 - [Model selection guidance](model-selection.md)

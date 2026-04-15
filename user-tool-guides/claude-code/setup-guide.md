@@ -88,7 +88,7 @@ Open your WSL terminal and run this command.
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-### Company Portal or Intune managed devices
+### Company Portal or Intune-managed devices
 
 If local installs are blocked, request the Claude Code package from your IT team through Company Portal or Microsoft Intune.
 

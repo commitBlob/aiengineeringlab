@@ -2,13 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.9] - 2026-04-13
+
+### Added
+
+- configuration of AI tooling for GitHub Enterprise repository
+- quality assurance guidance
+- guidance on integrating AI code assistant into SDLC
+- Claude Code setup guide
+
 ## [0.0.8] - 2026-03-26
 
 ### Added
 
 - GDS style guides for Claude
-- Updating procurement section for Claude
-- Do/Don't document (Copilot Usage Guide)
+- updating procurement section for Claude
+- do/don't document (Copilot Usage Guide)
 
 ## [0.0.7] - 2026-03-20
 
@@ -20,7 +29,6 @@ All notable changes to this project will be documented in this file.
 ## [0.0.6] - 2026-03-13
 
 ### Added
-
 - guidance on using AI to help with infrastructure as code (IaC) transformations
 - guidance on managing context window limitations when using AI for code generation
 - best practices for legacy code modernisation with AI
@@ -28,19 +36,16 @@ All notable changes to this project will be documented in this file.
 ## [0.0.5] - 2026-03-06
 
 ### Added
-
 - Claude Code manager tool guide
 - latest model capabilities to Copilot manager tool guide
 - links to free training courses for Claude provided by Anthropic
 
 ### Fixed
-
 - update Gemini manager tool guides to reference project credentials
 
 ## [0.0.4] - 2026-02-20
 
 ### Added
-
 - vendor security requirements
 - creating secure by design AI
 - risk alignment framework
@@ -49,13 +54,11 @@ All notable changes to this project will be documented in this file.
 - Copilot premium credit management
 
 ### Fixed
-
 - GDS styling fixes
 
 ## [0.0.3] - 2026-02-13
 
 ### Added
-
 - base guardrails
 - security policies
 - threat modelling
@@ -65,7 +68,6 @@ All notable changes to this project will be documented in this file.
 - manager tool guides for Amazon Q and Amazon Kiro
 
 ### Fixed
-
 - updated repository structure and navigation
 
 ## [0.0.2] - 2026-02-04

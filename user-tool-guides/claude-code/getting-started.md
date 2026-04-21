@@ -49,207 +49,16 @@ See the [Claude Code documentation](https://code.claude.com/docs) for full refer
 
 ## Installation and setup
 
-Claude Code works in your terminal for command-line workflows, integrates with your integrated development environment (IDE) for visual editing, or runs on the web for quick access without installation.
-
-Follow these steps to install and set up Claude Code.
-
-### Step 1: Choose your platform and install
-
-#### For terminal (recommended for daily use)
-
-##### macOS (Homebrew)
-
-```bash
-brew install --cask claude-code
-```
-
-##### macOS, Linux, or Windows Subsystem for Linux (WSL) (install script)
-
-```bash
-curl -fsSL https://claude.ai/install.sh | bash
-```
-
-##### Windows (PowerShell)
-
-```powershell
-irm https://claude.ai/install.ps1 | iex
-```
-
-##### Windows (Command Prompt)
-
-```cmd
-curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
-```
-
-Verify installation:
-
-```bash
-claude --version
-```
-
-Npm installation is no longer recommended. Use the native installers above.
-
-#### For web (no installation)
-
-Visit [claude.ai/code](https://claude.ai/code) to use Claude Code in your browser. Best for quick tasks, parallel sessions, or working on repos you do not have locally.
-
-#### For integrated development environment (IDE) integration
-
-##### VS Code
-
-1. Open Extensions (Ctrl+Shift+X or Cmd+Shift+X).
-2. Search for 'Claude Code'.
-3. Click Install and restart if prompted.
-
-For more information, see [Use Claude Code in VS Code](https://code.claude.com/docs/en/vs-code).
-
-##### JetBrains IDEs (IntelliJ, PyCharm, WebStorm)
-
-1. Go to File, Settings, Plugins.
-2. In the Marketplace tab, search for 'Claude Code'.
-3. Click Install and restart your IDE.
-
-For more information, see [Use Claude Code in JetBrains IDEs](https://code.claude.com/docs/en/jetbrains).
-
-#### For desktop app
-
-Download the standalone desktop application from [claude.com/code](https://claude.com/code). Best for visual diff review and managing multiple Git worktrees.
-
-### Step 2: Log in to your account
-
-You can authenticate using:
-
-- a claude.ai subscription (Claude Pro, Max, Teams, or Enterprise), this is recommended for most users - visit [claude.ai](https://claude.ai)
-- Claude Console API access with pre-paid credits by visiting [Claude Console](https://console.anthropic.com/)
-- Amazon Bedrock with AWS credentials
-- Google Vertex AI with Google Cloud Platform (GCP) credentials
-- Microsoft Foundry with Azure credentials
-
-#### For claude.ai or Claude Console (direct authentication)
-
-##### For terminal
-
-Start Claude Code. On first use, it will prompt you to log in:
-
-```bash
-claude
-# Follow the login prompts
-```
-
-Or use the login command at any time:
-
-```bash
-claude
-> /login
-```
-
-##### For web
-
-Sign in at [claude.ai/code](https://claude.ai/code) with your Claude account.
-
-##### For IDE extensions
-
-Open the Claude Code panel and click 'Sign in'.
-
-Once logged in, Claude Code stores your credentials. You will not need to log in again.
-
-#### For Amazon Bedrock
-
-Authenticate using AWS credentials. Set environment variables:
-
-```bash
-export CLAUDE_CODE_USE_BEDROCK=1
-export AWS_REGION=us-east-1
-```
-
-Then authenticate with AWS:
-
-```bash
-# Option 1: AWS command-line interface (CLI) configuration
-aws configure
-
-# Option 2: AWS single sign-on (SSO)
-aws sso login --profile your-profile-name
-export AWS_PROFILE=your-profile-name
-
-# Option 3: Environment variables
-export AWS_ACCESS_KEY_ID=your-access-key
-export AWS_SECRET_ACCESS_KEY=your-secret-key
-```
-
-When using Bedrock, the `/login` and `/logout` commands are not available. AWS credentials handle authentication.
-
-See the [Claude Code on Amazon Bedrock](https://code.claude.com/docs/en/amazon-bedrock) guide for more information.
-
-#### For Google Vertex AI
-
-Authenticate using Google Cloud credentials. Set environment variables:
-
-```bash
-export CLAUDE_CODE_USE_VERTEX=1
-export CLOUD_ML_REGION=global
-export ANTHROPIC_VERTEX_PROJECT_ID=your-project-id
-```
-
-Then authenticate with Google Cloud:
-
-```bash
-# Install gcloud CLI if not already installed
-# https://cloud.google.com/sdk/docs/install
-
-# Authenticate
-gcloud auth login
-gcloud auth application-default login
-
-# Set project
-gcloud config set project your-project-id
-
-# Enable Vertex AI API
-gcloud services enable aiplatform.googleapis.com
-```
-
-When using Vertex AI, the `/login` and `/logout` commands are not available. Google Cloud credentials handle authentication.
-
-See the [Claude Code on Google Vertex AI](https://code.claude.com/docs/en/google-vertex-ai) guide and [Claude on Vertex AI](https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai) for more information.
-
-#### For Microsoft Foundry
-
-Authenticate using Azure credentials. Contact your Azure administrator for Foundry resource setup.
-
-Set environment variables:
-
-```bash
-export CLAUDE_CODE_USE_FOUNDRY=1
-export ANTHROPIC_FOUNDRY_RESOURCE=your-resource-name
-export ANTHROPIC_FOUNDRY_API_KEY=your-api-key
-```
-
-Or use Azure Entra ID authentication for enhanced security with role-based access control.
-
-See the [Claude in Microsoft Foundry](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry) guide for more information.
-
-### Step 3: Start your first session
-
-##### For terminal
-
-Navigate to your project directory and start Claude Code:
-
-```bash
-cd /path/to/your/project
-claude
-```
-
-You will see the Claude Code welcome screen with your session information. Type `/help` for available commands.
-
-##### For web
-
-1. Go to [claude.ai/code](https://claude.ai/code).
-2. Select or upload a project.
-3. Start asking questions in the chat interface.
-
-##### For IDE
-
-Open the Claude Code panel in your IDE and start typing.
+For detailed installation instructions, authentication setup, and AI Engineering Lab LiteLLM configuration, see the [Claude Code setup guide](setup-guide.md).
+
+The setup guide covers:
+
+- installing Claude Code on macOS, Windows, and Windows Subsystem for Linux (WSL)
+- managed device installation through Company Portal or Intune
+- configuring Claude Code with the AI Engineering Lab LiteLLM endpoint
+- VS Code extension configuration
+- application programming interface (API) key lifecycle and renewal
+- troubleshooting common installation issues
 
 ## Reviewing Claude's work
 
@@ -327,7 +136,7 @@ Read more about [common workflows in Claude Code](https://code.claude.com/docs/e
 
 ### Starting with a new project
 
-When building a new service or feature from scratch, you should always follow these steps. 
+When building a new service or feature from scratch, you should always follow these steps.
 
 #### Writing new features
 
@@ -381,7 +190,7 @@ claude "Create Prisma migration adding citizen_id field with indexing on citizen
 
 ### Joining an existing codebase
 
-When taking over, assessing, or modernising an existing project, you should always follow these steps. 
+When taking over, assessing, or modernising an existing project, you should always follow these steps.
 
 1. Do an initial assessment to understand the project at a high level.
 
@@ -458,16 +267,16 @@ These workflows apply whether starting fresh or joining existing code.
   Show me what needs to change before making edits.
 ```
 
-3. Claude will create a plan. 
+3. Claude will create a plan.
 
 The plan should show:
 - files that need modification
 - proposed approach and reasoning
 - potential risks or impacts
 
-4. Review the plan. 
+4. Review the plan.
 
-5. Approve to proceed with changes or provide feedback if you're not satisfied. 
+5. Approve to proceed with changes or provide feedback if you're not satisfied.
 
 Plan Mode is particularly useful when:
 
@@ -512,7 +321,7 @@ For advanced strategies on context management and large-scale refactoring techni
 
 #### Debugging issues
 
-1. Provide structured context including the error, relevant code, and environment details. 
+1. Provide structured context including the error, relevant code, and environment details.
 
 2. Follow up with specific diagnostic questions.
 
@@ -602,7 +411,6 @@ For persistent issues, contact your team's champion or raise a support ticket.
 The [advanced use guide](advanced-use.md) covers writing better prompts, managing context for long-running work, and security practices.
 
 The [customisation guide](customisation-guide.md) covers CLAUDE.md files, custom slash commands, skills, hooks, and Model Context Protocol (MCP) server integration.
-
 
 
 

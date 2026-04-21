@@ -69,6 +69,7 @@ This repository follows a structured approach designed to maintain clarity and s
 │   ├── README.md
 │   ├── ai-code-assistant-instructions.md
 │   ├── ai-sdlc-playbook.md
+│   ├── ai-tools-integration-guide.md
 │   ├── context-engineering.md
 │   ├── legacy-system-modernisation.md
 │   ├── model-selection.md
@@ -100,12 +101,12 @@ This repository follows a structured approach designed to maintain clarity and s
 │   ├── measurement-playbook.md
 │   └── quality-strategy.md
 │
-├── security/                    # Security resources
+├── security/                    # Security resources 
 │   ├── README.md
 │   ├── security-policies.md
 │   └── threat-modelling.md
 │
-├── sustainable-ai/              # Environmental sustainability
+├── sustainable-ai/              # Environmental sustainability 
 │   ├── README.md
 │   ├── overview.md
 │   ├── carbon-footprint.md
@@ -121,7 +122,8 @@ This repository follows a structured approach designed to maintain clarity and s
     │   ├── getting-started.md
     │   ├── advanced-use.md
     │   ├── customisation-guide.md
-    │   └── safe-usage-prototyping-vs-production.md
+    │   ├── safe-usage-prototyping-vs-production.md
+    │   └── setup-guide.md
     ├── github-copilot/
     │   ├── README.md
     │   ├── getting-started.md
@@ -129,7 +131,7 @@ This repository follows a structured approach designed to maintain clarity and s
     │   ├── customisation-guide.md
     │   ├── safe-usage-prototyping-vs-production.md
     │   ├── agent-mode-billing.md
-    │   ├── copilot-cli-billing.md
+    │   ├── copilot-cli-billing.md       
     │   └── premium-credit-management.md
     └── gemini-code-assist/
         ├── README.md

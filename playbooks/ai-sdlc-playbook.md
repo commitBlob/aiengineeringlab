@@ -22,6 +22,7 @@ It assumes basic familiarity with AI coding assistant tools but accommodates tea
 
 Before integrating AI coding assistants into your workflow, make sure you have:
 
+- read [how AI code assistants integrate into the SDLC](ai-tools-integration-guide.md) to understand deployment patterns and capability maturity
 - completed your department's AI Engineering Lab onboarding and received tool access
 - reviewed the 'guardrails-base.md' for your organisation
 - understood your team's data classification and what you can share with AI tools
@@ -332,7 +333,7 @@ Example prompt:
 'Generate a Terraform configuration for an AWS ECS service with:
 - application load balancer
 - auto-scaling based on CPU utilisation
-- cloudWatch logging
+- CloudWatch logging
 - security groups following least-privilege principles
 - tags for cost allocation
 
@@ -484,7 +485,7 @@ If you encounter challenges using AI coding assistants effectively, complete the
 
 ## Further reading
 
-### Interal resources
+### Internal resources
 
 - [Context engineering playbook](context-engineering.md)
 - [Model selection guidance](model-selection.md)

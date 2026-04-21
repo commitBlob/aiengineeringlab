@@ -13,7 +13,7 @@ Only approved tools and licensed users can use GitHub Copilot under your organis
 |------|----------------|------------------------|
 | GitHub Copilot Enterprise | Approved users only | OFFICIAL |
 | GitHub Copilot Free | No one (prohibited) | Security and legal risks |
-| Any non approved tool | No one (prohibited) | Security and legal risks |
+| Any non-approved tool | No one (prohibited) | Security and legal risks |
 
 You cannot use GitHub Copilot Free, GitHub Copilot Individual, GitHub Copilot Pro, or other public AI tools without explicit information governance approval.
 
@@ -35,7 +35,7 @@ Turn on all filtering features in GitHub Copilot settings. This includes the dup
 
 Enabling filters protects against intellectual property risks by blocking suggestions that match publicly available code. It also reduces the chance of introducing known vulnerable code patterns into your codebase.
 
-### Review every line of AI generated code
+### Review every line of AI-generated code
 
 Do not accept AI suggestions without understanding what the code does. Treat AI code with the same scrutiny as code from a junior developer.
 
@@ -48,9 +48,9 @@ Check and clean code before using it with AI tools. Remove all or add relevant f
 - special category data
 - internal system details
 
-### Test AI generated code thoroughly
+### Test AI-generated code thoroughly
 
-AI code needs the same or more thorough testing as human written code. Test for correctness, security vulnerabilities, and edge cases.
+AI code needs the same or more thorough testing as human-written code. Test for correctness, security vulnerabilities, and edge cases.
 
 ### Get approval from your accountable owner
 
@@ -141,8 +141,8 @@ Do not input:
 You must:
 
 - complete peer review for all AI-generated code through pull or merge requests
-- get expert review before using AI for security critical code like authentication or encryption
-- disable Terminal auto approve in agent mode to prevent accidental file deletion (see [GitHub Copilot agent mode settings](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-coding-agent))
+- get expert review before using AI for security-critical code like authentication or encryption
+- disable Terminal auto-approve in agent mode to prevent accidental file deletion (see [GitHub Copilot agent mode settings](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-coding-agent))
 
 Use Copilot in your IDE rather than on GitHub.com. The IDE does not retain your prompts, whereas GitHub.com retains them for 28 days.
 
@@ -163,7 +163,7 @@ Use Copilot in your IDE rather than on GitHub.com. The IDE does not retain your 
 - [ ] Internal URLs and system names redacted
 - [ ] Database connection strings removed
 
-### When reviewing AI generated code
+### When reviewing AI-generated code
 
 - [ ] Every line reviewed and understood
 - [ ] Purpose and logic verified
@@ -172,14 +172,14 @@ Use Copilot in your IDE rather than on GitHub.com. The IDE does not retain your 
 - [ ] Security scanning completed (SAST tools)
 - [ ] Licences checked for all suggested packages
 - [ ] Code follows your organisation's engineering standards
-- [ ] No hard coded credentials or configuration
+- [ ] No hard-coded credentials or configuration
 - [ ] Error handling implemented properly
 - [ ] Unit tests written and passing
 - [ ] Peer review completed
 
-### Before deploying AI assisted code
+### Before deploying AI-assisted code
 
-- [ ] Full test suite passed (unit, integration, end to end)
+- [ ] Full test suite passed (unit, integration, end-to-end)
 - [ ] Security vulnerabilities addressed
 - [ ] Documentation updated
 - [ ] AI usage documented in commits or pull requests
